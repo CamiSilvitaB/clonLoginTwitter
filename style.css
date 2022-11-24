@@ -7,7 +7,38 @@
 html {
   font-size: 62.5%;
 }
-
 body {
+  background-color: gray;
+}
+.login_container {
+  max-width: 600px;
+  height: 400px;
+  border-radius: 15px;
   background-color: #020000;
+}
+
+/* Header styles */
+
+.header_container {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 53px;
+}
+.close_container {
+  width: 47%;
+  justify-content: space-between ;
+}
+
+.close_container img {
+  width: 19px;
+  margin-left: 18px;
+}
+
+.logo_container {
+  width: 53%;
+  justify-items: center;
+}
+.logo_container img {
+  width: 30px;
 }
